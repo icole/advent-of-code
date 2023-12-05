@@ -8,15 +8,15 @@ open(my $file, '<', $filename) or die "Could not open file '$filename' for readi
 
 # Got the letter hack from reddit
 my %value_mapping = (
-    'one' => '1e',
-    'two' => '2o',
-    'three' => '3e',
-    'four' => '4r',
-    'five' => '5e',
-    'six' => '6x',
-    'seven' => '7n',
-    'eight' => '8t',
-    'nine' => '9e',
+  'one' => '1e',
+  'two' => '2o',
+  'three' => '3e',
+  'four' => '4r',
+  'five' => '5e',
+  'six' => '6x',
+  'seven' => '7n',
+  'eight' => '8t',
+  'nine' => '9e',
 );
 
 # Iterate over each line in the file
